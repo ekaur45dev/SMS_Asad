@@ -1,0 +1,26 @@
+{
+  "name": "sms",
+  "version": "1.0.0",
+  "description": "School Management System",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ekaur45dev/SMS_Asad.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ekaur45dev/SMS_Asad/issues"
+  },
+  "homepage": "https://github.com/ekaur45dev/SMS_Asad#readme",
+  "dependencies": {
+    "@vaadin/vaadin": "^15.0.0",
+    "@vaadin/vaadin-text-field": "^2.5.4",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1"
+  }
+}
