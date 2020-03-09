@@ -5,6 +5,7 @@ const path = require("path");
 const routes = require("./routes");
 require("dotenv").config();
 app.use("/public", express.static(path.join(__dirname, "public")));
+app.use("/assets", express.static(path.join(__dirname, "public/assets")));
 app.use("/", express.static(path.join(__dirname, "Angular8/dist/")));
 app.use("/api", routes);
 app.get("**", (req, res) => {

@@ -9,7 +9,10 @@ const routes: Routes = [
     path: "", redirectTo: "/account",pathMatch:"full"
   },
   {
-    path: "account", loadChildren: () => import("./Feature/account/account.module").then(mod => mod.AccountModule)
+    path: "account", loadChildren: () => import("./feature/account/account.module").then(mod => mod.AccountModule)
+  },
+  {
+    path: "dashboard", loadChildren: () => import("./feature/dashboard/dashboard.module").then(module => module.DashboardModule)
   }
 ];
 

@@ -27,7 +27,10 @@
             "styles": [
               "src/styles.css"
             ],
-            "scripts": []
+            "scripts": [
+              "node_modules/jquery/dist/jquery.min.js",
+              "../public/assets/scripts/main.87c0748b313a1dda75f5.js"
+            ]
           },
           "configurations": {
             "production": {
